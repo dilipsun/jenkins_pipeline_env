@@ -1,13 +1,4 @@
 node {
-
- stage 'Stage 1'
-   
-  stage 'Stage 2'
-   cat /var/log/messages > /tmp/logs.txt
-   df -h > /tmp/logs1.txt
-}
-
-node {
    stage 'Stage 1'
    echo 'We are about to pretend that some of our Jenkins run is machine specific'
    echo 'This allows us to keep our infrastucture as code clean'

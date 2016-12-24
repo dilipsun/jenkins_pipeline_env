@@ -19,5 +19,5 @@ node {
    echo "JAVA_HOME is ${env.JAVA_HOME} on this machine"
  
    stage 'Stage 2'
-   /bin/cat '/var/log/messages > /tmp/logs.txt'
+   echo  'THIS IS SECOND STAGE'
 }
